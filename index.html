@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Grid+Double:slnt,wght@-3,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Grid+Double:slnt,wght@-3,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -103,9 +106,47 @@
         color: white;
         transition: 0.5s;
     }
+    #sub {
+        text-align: center;
+        color: white;
+        font-family: Oswald;
+        font-size: 40px;
+    
+    }
 </style>
 <br>
 <br>
+<br>
+<h1 id="sub">Subscribe to our Newsletter!</h1>
+<center>
+<form>
+  <input type="email" id="email" required placeholder="Enter your email" style="width:25%; box-sizing: border-box; padding:15px 100px; background-color: rgb(178, 66, 66); border: none; border-radius: 5px;">
+  <input type="submit" id="submit">
+</form>
+</center>
+<style>
+  #email::placeholder {
+    font-size: 1.2em;
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+}
+  #submit:hover {
+    background-color: rgb(87, 0, 0);
+    transition: 0.5s;
+    cursor: pointer;
+
+  }
+  #submit {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+  }
+</style>
 <br>
 <br>
 </body>
